@@ -90,10 +90,16 @@ function App() {
                 
               </div>
 
+              {/* Procon future company name */}
               <div className="project">
-                <p>
-                  Concentration Game
-                </p>
+                <div>
+                  Concentration Game 
+                  <br/>
+                  <a style={{color: "white"}} href="https://github.com/aarontcheng/Concentration-Game">https://github.com/aarontcheng/Concentration-Game</a>
+                  
+                </div>
+                <br/>
+                
                 <img className="projectPic" src={concentration}/>
                 <br />
                 <br />
