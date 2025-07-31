@@ -119,7 +119,6 @@ function App() {
             <div className="contacts" style={{display: "flex", flexDirection: "row"}}>
               <a href="https://github.com/aarontcheng"><img alt="github link" src={github}/></a>
               <a href="https://www.linkedin.com/in/aaron-cheng-78a562311/"><img alt="linkedIn link" src={linkedIn}/></a>
-              
             </div>
             <br/>
             <p>aaronchengwork24@gmail.com</p>
