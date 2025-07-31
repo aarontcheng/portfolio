@@ -1,0 +1,23 @@
+.main{
+  padding-top: 60px;
+  margin-left: 5px;
+}
+
+.navbar{
+  color: teal;
+  background-color: coral;
+}
+
+.navLink{
+  color: teal;
+}
+
+.navLink:hover{
+  font-size: large;
+  color:teal;
+  transition: all 0.25s; 
+}
+
+
+
+

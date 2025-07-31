@@ -1,0 +1,65 @@
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+body{
+  font-family: "Merriweather";
+  background-color: teal;
+  color: white;
+}
+
+.profilePic{
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  border-color: black;
+  border-width: 10px;
+
+}
+
+a > img{
+  height: 60px;
+  width: 60px;
+}
+
+.projectPic{
+  width: 75%;
+}
+
+.container{
+  margin: 0px;
+  padding: 10px;
+}
+
+.flexContainer{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.flexContainer > div{
+  padding: 5px;
+}
+
+.profile{
+  width: 40%;
+  position:fixed;
+}
+
+.text{
+  margin-left: 40%;
+  width: 60%;
+}
