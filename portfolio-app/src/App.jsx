@@ -57,7 +57,7 @@ function App() {
                   An aspiring software engineer with an interest in full stack development.
                 </p>
                 <p>
-                  I have been coding ever since middle school computer class with block code in scratch, and continued on as a software engineering major at Brooklyn Tech, learning object oriented programming, cybersecurity, and big data. Then I went to Rochester Institute of Technology, also as a software engineering major, where I learned software design, full stack development, C (with all the pointers stuff), and much more!
+                  I have been coding ever since middle school computer class with block code in scratch, and continued on as a software engineering major at Brooklyn Tech, learning object oriented programming, cybersecurity, and big data. Now I attend Rochester Institute of Technology, also as a software engineering major, where I learn software design, full stack development, C (with all the pointers stuff), and much more.
                 </p>
                 <p>
                   In my free time, I enjoy playing basketball in the gym and with my friends, helping and hanging out with my church community, and doing all things pokemon. I also like to learn languages, being able to speak four languages: English, Cantonese, Mandarin, and Spanish, and I do my own haircuts (self taught though).
@@ -75,9 +75,9 @@ function App() {
 
             <div>
               <div className="project">
-                <p>
+                <h4>
                   U-Fund Manager Project
-                </p>
+                </h4>
                 <img className="projectPic" src={ufund}/>
                 <br />
                 <br />
@@ -93,8 +93,7 @@ function App() {
               {/* Procon future company name */}
               <div className="project">
                 <div>
-                  Concentration Game 
-                  <br/>
+                  <h4>Concentration Game</h4>
                   <a style={{color: "white"}} href="https://github.com/aarontcheng/Concentration-Game">https://github.com/aarontcheng/Concentration-Game</a>
                   
                 </div>
@@ -120,7 +119,10 @@ function App() {
             <div className="contacts" style={{display: "flex", flexDirection: "row"}}>
               <a href="https://github.com/aarontcheng"><img alt="github link" src={github}/></a>
               <a href="https://www.linkedin.com/in/aaron-cheng-78a562311/"><img alt="linkedIn link" src={linkedIn}/></a>
+              
             </div>
+            <br/>
+            <p>aaronchengwork24@gmail.com</p>
           </div>
 
         </div>
