@@ -9,6 +9,7 @@ import github from './assets/github.png';
 import linkedIn from './assets/LinkedIn_icon.svg.webp';
 import './App.css';
 import { Navbar, Nav, NavItem, Collapse, NavbarToggler, NavLink } from 'reactstrap';
+import Project from './Project.jsx'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
