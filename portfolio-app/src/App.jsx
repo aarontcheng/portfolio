@@ -25,6 +25,17 @@ function App() {
     });
   };
 
+  const projectsMap = new Map([
+    [1, {"name": "U-Fund Manager", "link": "", "image": ufund,"bullets": 'there'}],
+    [2, {"name": "Concentration Game", "link": "https://github.com/aarontcheng/Concentration-Game", "bullets": 'hi'}]
+  ]);
+
+  function mapProjects(){
+    return projectsMap.entries().map(([key, value]) =>
+      <Project name={value["name"]} link={value["link"]} bullets={value["bullets"]}></Project>
+    );
+  };
+
   return (
     <>
       <Navbar className="navbar" alt="Navigation Bar" style={{position: "fixed", top: "0px", width: "100%", height: "60px"}}  expand="sm">
@@ -75,6 +86,8 @@ function App() {
             <h1 alt="Start of Project section" ref={projects}>Projects</h1>
 
             <div>
+              {mapProjects()}
+              
               <div className="project">
                 <h4>
                   U-Fund Manager Project
