@@ -2,7 +2,7 @@
   "name": "portfolio-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://aarontcheng.github.io/portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite --open",
